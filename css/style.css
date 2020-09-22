@@ -1,0 +1,47 @@
+body{
+    background-color: #E9CEF5;
+}
+header h1{
+    text-align: center;
+    color: #FF6672;
+}
+nav li{
+    display: inline-block;
+    margin: 50px;
+}
+
+nav li a{
+    color: #8D0AF7;
+}
+nav ul{
+    text-align: center;
+}
+main h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(204,59,41);
+}
+main section{
+    display: flex;
+    margin-bottom: 50px;
+}
+main img{
+    max-width: 400px;
+}
+main .section-text{
+    margin-left: 50px;
+    width: 60%;
+}
+main .section-text h2{
+    color: #E02266;
+}
+main .section-text p{
+    color: #E02264;
+}
+main p{
+  display: inline-block;  
+}
+footer p{
+    text-align: center;
+    color: rgb(204,59,41);
+}
