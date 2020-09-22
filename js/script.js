@@ -1,7 +1,9 @@
 var time = new Date;
 alert("Hello, The time now is " + time.getHours() + ":" + time.getMinutes()); 
 
-var name = prompt("What's your name?");
+var name = " Stranger"
+
+name = prompt("What's your name?");
 
 var username = document.getElementById("username");
 
