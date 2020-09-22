@@ -1,5 +1,5 @@
 var time = new Date;
-prompt("Hello, The time now is " + time.getHours() + ":" + time.getMinutes()) 
+alert("Hello, The time now is " + time.getHours() + ":" + time.getMinutes()); 
 
 var name = prompt("What's your name?");
 
