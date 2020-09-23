@@ -6,11 +6,19 @@ function viewTime() {
 var name = " Stranger"
 
 function displayName() {
-    name = prompt("What's your name?");
-    var username = document.getElementById("username");
-    username.innerHTML = name;
-}
+    while (true) {
 
+        name = prompt("What's your name?");
+        if (name == "") {
+            alert("Please enter your name.")
+        } else {
+            var username = document.getElementById("username");
+            username.innerHTML = name;
+            console.log(name);
+            break;
+        }
+    }
+}
 function changeBackgroundColor() {
 
     while (true) {
