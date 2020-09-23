@@ -13,9 +13,9 @@ function displayName() {
 
 function changeBackgroundColor() {
 
-    while(true){
+    while (true) {
         colorValue = prompt("Choose one of the following by entering its number: 1- black 2- blue 3- white")
-        if( colorValue >=1 && colorValue <=3){
+        if (colorValue >= 1 && colorValue <= 3) {
             if (colorValue == 1) {
                 document.getElementById("main").style.backgroundColor = "black";
             }
@@ -29,14 +29,14 @@ function changeBackgroundColor() {
                 alert("wrong input");
             }
             break;
-        } else{
+        } else {
             alert("Please insert a valid value.")
         }
     }
 }
 
 function showImages(number) {
-    return "<img = src='images/nebula (" + number + ").jpg' />"
+    return "<img = src='Images/nebula (" + number + ").jpg' />"
 }
 
 function askUser() {
@@ -54,7 +54,7 @@ function askUser() {
         addImagestoHTML = addImagestoHTML + showImages(i);
     }
     var imageBlock = document.getElementById("displayImages");
-    imageBlock.innerHTML =  addImagestoHTML;
+    imageBlock.innerHTML = addImagestoHTML;
     document.getElementById("displayImagesTitle").innerHTML = "<h1>New Images to display</h1>";
 }
 
